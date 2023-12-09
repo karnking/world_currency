@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Country Search by Currency
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Boost your currency knowledge with this React App.
+With this app, you can search for countries with a specific currency. Users can enter a currency code or currency name, and the application fetches and displays the countries related to that currency. The application also provides some info about that country with interactive UI.
 
-## Available Scripts
+![Screenshot 2023-12-09 222623](https://github.com/karnking/world_currency/assets/68837552/05737de2-4865-497e-b03a-2ed118601232)
 
-In the project directory, you can run:
+## Demo :movie_camera:
 
-### `npm start`
+- Deployed Link: [https://metta-social-meenakshiar.vercel.app/]
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Technology Stack Used 💻
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React: The application is built using the React JavaScript library.
+- TailwindCSS: used for quick and efficient styling.
+- Redux: For global efficient state management
 
-### `npm test`
+## Features :sparkles:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Search by Currency Code: Enter a currency code or currency in the input field to find countries with that currency in circulation.
 
-### `npm run build`
+- Interactive UI: The application provides a clean and interactive user interface with flag images and info for each country.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Responsive and State Changes: Different results according to states and screen sizes 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Installation :
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone this repo to your local machine using
 
-### `npm run eject`
+```
+git clone https://github.com/karnking/world_currency/
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Go to the folder where you cloned this repo and install dependencies using
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Run the project in production mode
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+npm run start
+```
 
-## Learn More
+# Sources :
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Country data is fetched from https://restcountries.com
+- Flag images are provided by https://flagcdn.com
