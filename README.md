@@ -28,7 +28,7 @@ With this app, you can search for countries with a specific currency. Users can 
 1. Clone this repo to your local machine using
 
 ```
-git clone https://github.com/karnking/world_currency/
+git clone https://github.com/karnking/world_currency
 ```
 
 2. Go to the folder where you cloned this repo and install dependencies using
