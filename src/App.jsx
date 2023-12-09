@@ -1,20 +1,23 @@
-import React, { useEffect } from 'react'
 import SearchBar from './component/SearchBar'
 import CountryComp from './component/CountryComp'
-import { useSelector, useDispatch } from 'react-redux'
+import { useSelector } from 'react-redux'
 import LoadingComp from './component/LoadingComp'
-import { getFlags } from './redux/action'
+import ErrorComp from './component/ErrorComp'
 
 const App = () => {
   const isLoading = useSelector(state => state.currency.isLoading)
-  const dispatch = useDispatch();
-  useEffect(() => {
-    dispatch(getFlags())
-  }, [])
+  const isError = useSelector(state => state.currency.isError)
+
   return (
-    <div className='flex flex-col gap-10 justify-center items-center min-h-screen'>
-      <SearchBar />
-      {isLoading ? <LoadingComp /> : <CountryComp />}
+    <div className='bg-yellow-100 min-h-screen'>
+      <div className='text-center text-3xl uppercase font-extrabold p-4 font-mono'>Boost your currency knowledge</div>
+      <div className='flex flex-col gap-10 justify-center items-center '>
+        <SearchBar />
+        {isError ? <ErrorComp />
+          : isLoading ? <LoadingComp />
+            : <CountryComp />
+        }
+      </div>
     </div>
   )
 }
