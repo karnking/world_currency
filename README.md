@@ -7,7 +7,7 @@ With this app, you can search for countries with a specific currency. Users can 
 
 ## Demo :movie_camera:
 
-- Deployed Link: [https://metta-social-meenakshiar.vercel.app/]
+- Deployed Link: https://world-currency.vercel.app/
 
 # Technology Stack Used 💻
 
