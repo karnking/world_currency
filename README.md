@@ -14,6 +14,7 @@ With this app, you can search for countries with a specific currency. Users can 
       </td>
 </tr>
 </table>
+
 ## Demo :movie_camera:
 
 - Deployed Link: https://world-currency.vercel.app/
