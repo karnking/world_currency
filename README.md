@@ -21,7 +21,7 @@ With this app, you can search for countries with a specific currency. Users can 
 # Technology Stack Used 💻
 
 - React: The application is built using the React JavaScript library.
-- TailwindCSS: used for quick and efficient styling.
+- TailwindCSS: used for quick, efficient, and responsive styling.
 - Redux: For global efficient state management
 
 ## Features :sparkles:
