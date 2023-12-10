@@ -2,9 +2,18 @@
 
 Boost your currency knowledge with this React App.
 With this app, you can search for countries with a specific currency. Users can enter a currency code or currency name, and the application fetches and displays the countries related to that currency. The application also provides some info about that country with interactive UI.
-
-![Screenshot 2023-12-09 222623](https://github.com/karnking/world_currency/assets/68837552/05737de2-4865-497e-b03a-2ed118601232)
-
+<table>
+  <tr>
+    <td>
+      
+![image](https://github.com/karnking/world_currency/assets/68837552/311869f2-5e04-42af-9039-6bc08eba292f)
+      </td>
+    <td>
+      
+  ![image](https://github.com/karnking/world_currency/assets/68837552/4319ea90-98aa-483b-a8bc-a9ac93a7c059)
+      </td>
+</tr>
+</table>
 ## Demo :movie_camera:
 
 - Deployed Link: https://world-currency.vercel.app/
