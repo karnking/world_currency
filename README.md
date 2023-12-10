@@ -26,11 +26,11 @@ With this app, you can search for countries with a specific currency. Users can 
 
 ## Features :sparkles:
 
-- Search by Currency Code: Enter a currency code or currency in the input field to find countries with that currency in circulation.
+- **Search by Currency Code**: Enter a currency code or currency in the input field to find countries with that currency in circulation. (Start typing anywhere and search will start)
 
-- Interactive UI: The application provides a clean and interactive user interface with flag images and info for each country.
+- **Interactive UI**: The application provides a clean and interactive user interface with flag images and info for each country.
 
-- Responsive and State Changes: Different results according to states and screen sizes 
+- **Responsive and State Changes**: Different results according to states and screen sizes 
 
 # Installation :
 
